@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70CC5B3173EB62100805534 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70CC5B2173EB62100805534 /* UIKit.framework */; };
+		F70CC5B5173EB62100805534 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70CC5B4173EB62100805534 /* Foundation.framework */; };
+		F70CC5B7173EB62100805534 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70CC5B6173EB62100805534 /* CoreGraphics.framework */; };
+		F70CC5BD173EB62100805534 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5BB173EB62100805534 /* InfoPlist.strings */; };
+		F70CC5C5173EB62100805534 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5C4173EB62100805534 /* Default.png */; };
+		F70CC5C7173EB62100805534 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5C6173EB62100805534 /* Default@2x.png */; };
+		F70CC5C9173EB62100805534 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5C8173EB62100805534 /* Default-568h@2x.png */; };
+		F70CC5D3173EBCE400805534 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = F70CC5D2173EBCE400805534 /* main.mm */; };
+		F70CC5D6173EBCF000805534 /* Interface_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5D4173EBCF000805534 /* Interface_iPad.xib */; };
+		F70CC5D7173EBCF000805534 /* Interface_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5D5173EBCF000805534 /* Interface_iPhone.xib */; };
+		F70CC5D9173EBE5300805534 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70CC5D8173EBE5300805534 /* OpenGLES.framework */; };
+		F70CC5DB173EBE6600805534 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70CC5DA173EBE6600805534 /* GLKit.framework */; };
+		F70CC5DD173EBE8B00805534 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70CC5DC173EBE8B00805534 /* QuartzCore.framework */; };
+		F70CC5DF173EBEB800805534 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70CC5DE173EBEB800805534 /* CoreMotion.framework */; };
+		F70CC5EA173EBF7A00805534 /* COGLES2FixedPipeline.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F70CC5E2173EBF7A00805534 /* COGLES2FixedPipeline.fsh */; };
+		F70CC5EB173EBF7A00805534 /* COGLES2FixedPipeline.vsh in Sources */ = {isa = PBXBuildFile; fileRef = F70CC5E3173EBF7A00805534 /* COGLES2FixedPipeline.vsh */; };
+		F70CC5EC173EBF7A00805534 /* COGLES2NormalMap.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F70CC5E4173EBF7A00805534 /* COGLES2NormalMap.fsh */; };
+		F70CC5ED173EBF7A00805534 /* COGLES2NormalMap.vsh in Sources */ = {isa = PBXBuildFile; fileRef = F70CC5E5173EBF7A00805534 /* COGLES2NormalMap.vsh */; };
+		F70CC5EE173EBF7A00805534 /* COGLES2ParallaxMap.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F70CC5E6173EBF7A00805534 /* COGLES2ParallaxMap.fsh */; };
+		F70CC5EF173EBF7A00805534 /* COGLES2ParallaxMap.vsh in Sources */ = {isa = PBXBuildFile; fileRef = F70CC5E7173EBF7A00805534 /* COGLES2ParallaxMap.vsh */; };
+		F70CC5F0173EBF7A00805534 /* COGLES2Renderer2D.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F70CC5E8173EBF7A00805534 /* COGLES2Renderer2D.fsh */; };
+		F70CC5F1173EBF7A00805534 /* COGLES2Renderer2D.vsh in Sources */ = {isa = PBXBuildFile; fileRef = F70CC5E9173EBF7A00805534 /* COGLES2Renderer2D.vsh */; };
+		F70CC5F4173EC27000805534 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = F70CC5F3173EC27000805534 /* AppDelegate.mm */; };
+		F70CC5F5173EC54B00805534 /* COGLES2FixedPipeline.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5E2173EBF7A00805534 /* COGLES2FixedPipeline.fsh */; };
+		F70CC5F6173EC54B00805534 /* COGLES2FixedPipeline.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5E3173EBF7A00805534 /* COGLES2FixedPipeline.vsh */; };
+		F70CC5F7173EC54B00805534 /* COGLES2NormalMap.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5E4173EBF7A00805534 /* COGLES2NormalMap.fsh */; };
+		F70CC5F8173EC54B00805534 /* COGLES2NormalMap.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5E5173EBF7A00805534 /* COGLES2NormalMap.vsh */; };
+		F70CC5F9173EC54B00805534 /* COGLES2ParallaxMap.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5E6173EBF7A00805534 /* COGLES2ParallaxMap.fsh */; };
+		F70CC5FA173EC54B00805534 /* COGLES2ParallaxMap.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5E7173EBF7A00805534 /* COGLES2ParallaxMap.vsh */; };
+		F70CC5FB173EC54B00805534 /* COGLES2Renderer2D.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5E8173EBF7A00805534 /* COGLES2Renderer2D.fsh */; };
+		F70CC5FC173EC54B00805534 /* COGLES2Renderer2D.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F70CC5E9173EBF7A00805534 /* COGLES2Renderer2D.vsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F70CC5AF173EB62100805534 /* IrrlichtSkeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrrlichtSkeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70CC5B2173EB62100805534 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F70CC5B4173EB62100805534 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F70CC5B6173EB62100805534 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F70CC5BA173EB62100805534 /* IrrlichtSkeleton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IrrlichtSkeleton-Info.plist"; sourceTree = "<group>"; };
+		F70CC5BC173EB62100805534 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F70CC5C0173EB62100805534 /* IrrlichtSkeleton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IrrlichtSkeleton-Prefix.pch"; sourceTree = "<group>"; };
+		F70CC5C4173EB62100805534 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F70CC5C6173EB62100805534 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F70CC5C8173EB62100805534 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F70CC5D2173EBCE400805534 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		F70CC5D4173EBCF000805534 /* Interface_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Interface_iPad.xib; sourceTree = "<group>"; };
+		F70CC5D5173EBCF000805534 /* Interface_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Interface_iPhone.xib; sourceTree = "<group>"; };
+		F70CC5D8173EBE5300805534 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F70CC5DA173EBE6600805534 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F70CC5DC173EBE8B00805534 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F70CC5DE173EBEB800805534 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F70CC5E2173EBF7A00805534 /* COGLES2FixedPipeline.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = COGLES2FixedPipeline.fsh; sourceTree = "<group>"; };
+		F70CC5E3173EBF7A00805534 /* COGLES2FixedPipeline.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = COGLES2FixedPipeline.vsh; sourceTree = "<group>"; };
+		F70CC5E4173EBF7A00805534 /* COGLES2NormalMap.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = COGLES2NormalMap.fsh; sourceTree = "<group>"; };
+		F70CC5E5173EBF7A00805534 /* COGLES2NormalMap.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = COGLES2NormalMap.vsh; sourceTree = "<group>"; };
+		F70CC5E6173EBF7A00805534 /* COGLES2ParallaxMap.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = COGLES2ParallaxMap.fsh; sourceTree = "<group>"; };
+		F70CC5E7173EBF7A00805534 /* COGLES2ParallaxMap.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = COGLES2ParallaxMap.vsh; sourceTree = "<group>"; };
+		F70CC5E8173EBF7A00805534 /* COGLES2Renderer2D.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = COGLES2Renderer2D.fsh; sourceTree = "<group>"; };
+		F70CC5E9173EBF7A00805534 /* COGLES2Renderer2D.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = COGLES2Renderer2D.vsh; sourceTree = "<group>"; };
+		F70CC5F2173EC27000805534 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F70CC5F3173EC27000805534 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70CC5AC173EB62100805534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70CC5DF173EBEB800805534 /* CoreMotion.framework in Frameworks */,
+				F70CC5DD173EBE8B00805534 /* QuartzCore.framework in Frameworks */,
+				F70CC5DB173EBE6600805534 /* GLKit.framework in Frameworks */,
+				F70CC5D9173EBE5300805534 /* OpenGLES.framework in Frameworks */,
+				F70CC5B3173EB62100805534 /* UIKit.framework in Frameworks */,
+				F70CC5B5173EB62100805534 /* Foundation.framework in Frameworks */,
+				F70CC5B7173EB62100805534 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F70CC5A6173EB62100805534 = {
+			isa = PBXGroup;
+			children = (
+				F70CC5E1173EBF6D00805534 /* Shaders */,
+				F70CC5B8173EB62100805534 /* IrrlichtSkeleton */,
+				F70CC5B1173EB62100805534 /* Frameworks */,
+				F70CC5B0173EB62100805534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F70CC5B0173EB62100805534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70CC5AF173EB62100805534 /* IrrlichtSkeleton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70CC5B1173EB62100805534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F70CC5DE173EBEB800805534 /* CoreMotion.framework */,
+				F70CC5DC173EBE8B00805534 /* QuartzCore.framework */,
+				F70CC5DA173EBE6600805534 /* GLKit.framework */,
+				F70CC5D8173EBE5300805534 /* OpenGLES.framework */,
+				F70CC5B2173EB62100805534 /* UIKit.framework */,
+				F70CC5B4173EB62100805534 /* Foundation.framework */,
+				F70CC5B6173EB62100805534 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F70CC5B8173EB62100805534 /* IrrlichtSkeleton */ = {
+			isa = PBXGroup;
+			children = (
+				F70CC5E0173EBF5E00805534 /* Nibs */,
+				F70CC5B9173EB62100805534 /* Supporting Files */,
+			);
+			path = IrrlichtSkeleton;
+			sourceTree = "<group>";
+		};
+		F70CC5B9173EB62100805534 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F70CC5BA173EB62100805534 /* IrrlichtSkeleton-Info.plist */,
+				F70CC5BB173EB62100805534 /* InfoPlist.strings */,
+				F70CC5D2173EBCE400805534 /* main.mm */,
+				F70CC5C0173EB62100805534 /* IrrlichtSkeleton-Prefix.pch */,
+				F70CC5C4173EB62100805534 /* Default.png */,
+				F70CC5C6173EB62100805534 /* Default@2x.png */,
+				F70CC5C8173EB62100805534 /* Default-568h@2x.png */,
+				F70CC5F2173EC27000805534 /* AppDelegate.h */,
+				F70CC5F3173EC27000805534 /* AppDelegate.mm */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F70CC5E0173EBF5E00805534 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				F70CC5D4173EBCF000805534 /* Interface_iPad.xib */,
+				F70CC5D5173EBCF000805534 /* Interface_iPhone.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		F70CC5E1173EBF6D00805534 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				F70CC5E2173EBF7A00805534 /* COGLES2FixedPipeline.fsh */,
+				F70CC5E3173EBF7A00805534 /* COGLES2FixedPipeline.vsh */,
+				F70CC5E4173EBF7A00805534 /* COGLES2NormalMap.fsh */,
+				F70CC5E5173EBF7A00805534 /* COGLES2NormalMap.vsh */,
+				F70CC5E6173EBF7A00805534 /* COGLES2ParallaxMap.fsh */,
+				F70CC5E7173EBF7A00805534 /* COGLES2ParallaxMap.vsh */,
+				F70CC5E8173EBF7A00805534 /* COGLES2Renderer2D.fsh */,
+				F70CC5E9173EBF7A00805534 /* COGLES2Renderer2D.vsh */,
+			);
+			name = Shaders;
+			path = IrrlichtSkeleton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70CC5AE173EB62100805534 /* IrrlichtSkeleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70CC5CC173EB62100805534 /* Build configuration list for PBXNativeTarget "IrrlichtSkeleton" */;
+			buildPhases = (
+				F70CC5AB173EB62100805534 /* Sources */,
+				F70CC5AC173EB62100805534 /* Frameworks */,
+				F70CC5AD173EB62100805534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IrrlichtSkeleton;
+			productName = IrrlichtSkeleton;
+			productReference = F70CC5AF173EB62100805534 /* IrrlichtSkeleton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70CC5A7173EB62100805534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ahmed Hilali";
+			};
+			buildConfigurationList = F70CC5AA173EB62100805534 /* Build configuration list for PBXProject "IrrlichtSkeleton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F70CC5A6173EB62100805534;
+			productRefGroup = F70CC5B0173EB62100805534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F70CC5AE173EB62100805534 /* IrrlichtSkeleton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F70CC5AD173EB62100805534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70CC5F5173EC54B00805534 /* COGLES2FixedPipeline.fsh in Resources */,
+				F70CC5F6173EC54B00805534 /* COGLES2FixedPipeline.vsh in Resources */,
+				F70CC5F7173EC54B00805534 /* COGLES2NormalMap.fsh in Resources */,
+				F70CC5F8173EC54B00805534 /* COGLES2NormalMap.vsh in Resources */,
+				F70CC5F9173EC54B00805534 /* COGLES2ParallaxMap.fsh in Resources */,
+				F70CC5FA173EC54B00805534 /* COGLES2ParallaxMap.vsh in Resources */,
+				F70CC5FB173EC54B00805534 /* COGLES2Renderer2D.fsh in Resources */,
+				F70CC5FC173EC54B00805534 /* COGLES2Renderer2D.vsh in Resources */,
+				F70CC5BD173EB62100805534 /* InfoPlist.strings in Resources */,
+				F70CC5C5173EB62100805534 /* Default.png in Resources */,
+				F70CC5C7173EB62100805534 /* Default@2x.png in Resources */,
+				F70CC5C9173EB62100805534 /* Default-568h@2x.png in Resources */,
+				F70CC5D6173EBCF000805534 /* Interface_iPad.xib in Resources */,
+				F70CC5D7173EBCF000805534 /* Interface_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70CC5AB173EB62100805534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70CC5D3173EBCE400805534 /* main.mm in Sources */,
+				F70CC5EA173EBF7A00805534 /* COGLES2FixedPipeline.fsh in Sources */,
+				F70CC5EB173EBF7A00805534 /* COGLES2FixedPipeline.vsh in Sources */,
+				F70CC5EC173EBF7A00805534 /* COGLES2NormalMap.fsh in Sources */,
+				F70CC5ED173EBF7A00805534 /* COGLES2NormalMap.vsh in Sources */,
+				F70CC5EE173EBF7A00805534 /* COGLES2ParallaxMap.fsh in Sources */,
+				F70CC5EF173EBF7A00805534 /* COGLES2ParallaxMap.vsh in Sources */,
+				F70CC5F0173EBF7A00805534 /* COGLES2Renderer2D.fsh in Sources */,
+				F70CC5F1173EBF7A00805534 /* COGLES2Renderer2D.vsh in Sources */,
+				F70CC5F4173EC27000805534 /* AppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F70CC5BB173EB62100805534 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70CC5BC173EB62100805534 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F70CC5CA173EB62100805534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../irrlicht-es/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "../irrlicht-es/lib/MacOSX/$(CONFIGURATION)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lIrrlicht";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F70CC5CB173EB62100805534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../irrlicht-es/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "../irrlicht-es/lib/MacOSX/$(CONFIGURATION)";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lIrrlicht";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F70CC5CD173EB62100805534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IrrlichtSkeleton/IrrlichtSkeleton-Prefix.pch";
+				INFOPLIST_FILE = "IrrlichtSkeleton/IrrlichtSkeleton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F70CC5CE173EB62100805534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IrrlichtSkeleton/IrrlichtSkeleton-Prefix.pch";
+				INFOPLIST_FILE = "IrrlichtSkeleton/IrrlichtSkeleton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70CC5AA173EB62100805534 /* Build configuration list for PBXProject "IrrlichtSkeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70CC5CA173EB62100805534 /* Debug */,
+				F70CC5CB173EB62100805534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70CC5CC173EB62100805534 /* Build configuration list for PBXNativeTarget "IrrlichtSkeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70CC5CD173EB62100805534 /* Debug */,
+				F70CC5CE173EB62100805534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F70CC5A7173EB62100805534 /* Project object */;
+}
